@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/a1">
+
+    <fragment
+        android:id="@+id/a1"
+        android:name="com.xyx.javadesignmode.ui.a1.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/a2"
+        android:name="com.xyx.javadesignmode.ui.a2.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/a3"
+        android:name="com.xyx.javadesignmode.ui.a3.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/a4"
+        android:name="com.xyx.javadesignmode.ui.a4.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/a5"
+        android:name="com.xyx.javadesignmode.ui.a5.ToolsFragment"
+        android:label="@string/a5"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/a6"
+        android:name="com.xyx.javadesignmode.ui.a6.ToolsFragment"
+        android:label="@string/a6"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/b1"
+        android:name="com.xyx.javadesignmode.ui.b1.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/b2"
+        android:name="com.xyx.javadesignmode.ui.b2.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/b3"
+        android:name="com.xyx.javadesignmode.ui.b3.ToolsFragment"
+        android:label="@string/b3"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b4"
+        android:name="com.xyx.javadesignmode.ui.b4.ToolsFragment"
+        android:label="@string/b4"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b5"
+        android:name="com.xyx.javadesignmode.ui.b5.ToolsFragment"
+        android:label="@string/b5"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b6"
+        android:name="com.xyx.javadesignmode.ui.b6.ToolsFragment"
+        android:label="@string/b6"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b7"
+        android:name="com.xyx.javadesignmode.ui.b7.ToolsFragment"
+        android:label="@string/b7"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b8"
+        android:name="com.xyx.javadesignmode.ui.b8.ToolsFragment"
+        android:label="@string/b8"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b9"
+        android:name="com.xyx.javadesignmode.ui.b9.ToolsFragment"
+        android:label="@string/b9"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b10"
+        android:name="com.xyx.javadesignmode.ui.b10.ToolsFragment"
+        android:label="@string/b10"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b11"
+        android:name="com.xyx.javadesignmode.ui.b11.ToolsFragment"
+        android:label="@string/b11"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b12"
+        android:name="com.xyx.javadesignmode.ui.b12.ToolsFragment"
+        android:label="@string/b12"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b13"
+        android:name="com.xyx.javadesignmode.ui.b13.ToolsFragment"
+        android:label="@string/b13"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b14"
+        android:name="com.xyx.javadesignmode.ui.b14.ToolsFragment"
+        android:label="@string/b14"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b15"
+        android:name="com.xyx.javadesignmode.ui.b15.ToolsFragment"
+        android:label="@string/b15"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b16"
+        android:name="com.xyx.javadesignmode.ui.b16.ToolsFragment"
+        android:label="@string/b16"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b17"
+        android:name="com.xyx.javadesignmode.ui.b17.ToolsFragment"
+        android:label="@string/b17"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b18"
+        android:name="com.xyx.javadesignmode.ui.b18.ToolsFragment"
+        android:label="@string/b18"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b19"
+        android:name="com.xyx.javadesignmode.ui.b19.ToolsFragment"
+        android:label="@string/b19"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b20"
+        android:name="com.xyx.javadesignmode.ui.b20.ToolsFragment"
+        android:label="@string/b20"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b21"
+        android:name="com.xyx.javadesignmode.ui.b21.ToolsFragment"
+        android:label="@string/b21"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b22"
+        android:name="com.xyx.javadesignmode.ui.b22.ToolsFragment"
+        android:label="@string/b22"
+        tools:layout="@layout/fragment_tools" />
+    <fragment
+        android:id="@+id/b23"
+        android:name="com.xyx.javadesignmode.ui.b23.ToolsFragment"
+        android:label="@string/b23"
+        tools:layout="@layout/fragment_tools" />
+</navigation>

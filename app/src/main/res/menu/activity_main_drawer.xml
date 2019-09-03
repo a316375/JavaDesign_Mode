@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single" android:id="@+id/xxx" >
+
+        <item
+            android:id="@+id/a1"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/a2"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/a3"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/a4"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_tools" />
+        <item
+            android:id="@+id/a5"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/a5" />
+        <item
+            android:id="@+id/a6"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/a6" />
+
+    </group>
+    <group android:checkableBehavior="single" android:id="@+id/x"
+        >
+
+
+            <item
+                android:id="@+id/b1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/b2"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+            <item
+                android:id="@+id/b3"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b3" />
+            <item
+                android:id="@+id/b4"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b4" />
+            <item
+                android:id="@+id/b5"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b5" />
+            <item
+                android:id="@+id/b6"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b6" />
+            <item
+                android:id="@+id/b7"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b7" />
+            <item
+                android:id="@+id/b8"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b8" />
+            <item
+                android:id="@+id/b9"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b9" />
+            <item
+                android:id="@+id/b10"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b10" />
+            <item
+                android:id="@+id/b11"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b11" />
+            <item
+                android:id="@+id/b12"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b12" />
+            <item
+                android:id="@+id/b13"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b13" />
+            <item
+                android:id="@+id/b14"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b14" />
+            <item
+                android:id="@+id/b15"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b15" />
+            <item
+                android:id="@+id/b16"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b16" />
+            <item
+                android:id="@+id/b17"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b17" />
+            <item
+                android:id="@+id/b18"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b18" />
+            <item
+                android:id="@+id/b19"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b19" />
+            <item
+                android:id="@+id/b20"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b20" />
+            <item
+                android:id="@+id/b21"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b21" />
+            <item
+                android:id="@+id/b22"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b22" />
+            <item
+                android:id="@+id/b23"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/b23" />
+
+    </group>
+
+
+
+
+</menu>
