@@ -13,7 +13,10 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
+            zipAlignEnabled true  // Zipalign优化
+            shrinkResources true // 移除无用的resource文件,必须和minifyEnabled 一起使用
+
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -30,4 +33,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //横幅广告
+    //implementation 'com.google.android.gms:play-services:6.+'
+    //插页广告  implementation 'com.google.android.gms:play-services-ads:18.1.1'
+    implementation 'com.google.android.gms:play-services-ads:18.1.1'
+    //支付
+    implementation 'com.android.billingclient:billing:1.2'
 }

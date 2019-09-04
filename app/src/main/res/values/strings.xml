@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">JavaDesign Mode</string>
+    <string name="app_name">JavaDesignPatterns"</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Java设计模式</string>
+    <string name="nav_header_subtitle">JavaDesignPatterns</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
@@ -38,5 +38,7 @@
     <string name="b21">装饰模式</string>
     <string name="b22">享元模式</string>
     <string name="b23">代理模式</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-7420611722821229/7305395362</string>
 
 </resources>
