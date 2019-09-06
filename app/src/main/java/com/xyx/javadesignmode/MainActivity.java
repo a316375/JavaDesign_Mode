@@ -35,27 +35,7 @@ public class MainActivity extends AppCompatActivity {
         interstitial = new InterstitialAd(this);
         interstitial.setAdUnitId("ca-app-pub-7420611722821229/7230401418");
         interstitial.loadAd(new AdRequest.Builder().build());
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(10000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                runOnUiThread(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (interstitial.isLoaded()) {
-                            interstitial.show();
-                        } else {
-                            Log.d("TAG", "The interstitial wasn't loaded yet.");
-                        }
 
-                    }
-                });
-            }
-        }).start();
 
 
 
@@ -87,17 +67,27 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
 
 
-
-
-
-
-
-
         AdView mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest2 = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest2);
 
     }
+
+
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        System.out.println("按下了back键   onBackPressed()");
+        if (interstitial.isLoaded()) {
+            interstitial.show();
+        } else {
+            Log.d("TAG", "The interstitial wasn't loaded yet.");
+        }
+
+    }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
